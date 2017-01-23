@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-#Very quick and crude BeantifulSoup job to webscrape repo table into a json array and output
-#all repos older than 30 days. (note in Github < 30 days = 1 month) 
+# Very quick and crude BeantifulSoup job to webscrape repo table into a json array and output
+# all repos older than 30 days. (note in Github < 30 days = 1 month) 
 
 from BeautifulSoup import BeautifulSoup
 
