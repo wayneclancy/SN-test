@@ -10,7 +10,7 @@
 #
 # This is a simple alternative to using jenkins-cli which may not be installed on the machine.
 # Another option could be to download the hpi file in JENKINS_HOME/plugins, unzip and parse META-INF/MANIFEST.MF and
-# forefill all deps. This is a slightly horrible method and would also require a jenkins reload or somesort -WC
+# forefill all deps. This is a slightly horrible method and would also require a jenkins reload of somesort -WC
 
 if [ "$3" = "" ]
 then
