@@ -36,7 +36,8 @@ server=http://127.0.0.1:8080
 crumb=$(curl --user ${username}:${password} \
     $server/crumbIssuer/api/xml?xpath=concat\(//crumbRequestField,%22:%22,//crumb\))
 
-# Make curl requet to URL
+# Make curl post request to install plugin 
+s
 curl -X POST \
 --user ${username}:${password} -H "${crumb}" --data "<jenkins><install plugin='${plugin}@${version}' /></jenkins>" \
 --header 'Content-Type: text/xml' \

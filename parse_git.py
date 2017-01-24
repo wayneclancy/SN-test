@@ -2,6 +2,10 @@
 
 # Very quick and crude BeantifulSoup job to webscrape repo table into a json array and output
 # all repos older than 30 days. (note in Github < 30 days = 1 month) 
+#
+# BeatifulSoup 4 module required for this to work... 'pip install bs4' should surfice -WC
+#
+
 
 from BeautifulSoup import BeautifulSoup
 
